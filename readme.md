@@ -248,9 +248,13 @@ esim-tool-orchestrator/
 
 ## Author
 
-Built as a screening task submission for:
-
-**eSim Semester Long Internship – Spring 2026**
+**Name:** D. Tvk  
+**Program:** B.Tech Computer Science  
+**Submission For:** eSim Semester Long Internship – Spring 2026  
+**GitHub:** https://github.com/D-Tvk  
+**Location:** India  
 
 ---
+
+
 
