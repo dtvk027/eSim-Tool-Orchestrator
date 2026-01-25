@@ -7,7 +7,7 @@
 ## 1. Introduction
 
 eSim is an open-source EDA tool that integrates multiple external tools
-such as Ngspice, KiCad, GHDL, Verilator, and OpenModelica.\
+such as Ngspice, KiCad, GHDL, Verilator, and OpenModelica.
 Manually installing, configuring, and maintaining these tools is
 time-consuming and error-prone.
 
@@ -29,13 +29,13 @@ This project implements an **Automated Tool Manager** that provides:
 
 The goals of this project were:
 
--   Automate installation and configuration of eSim dependencies\
--   Ensure compatibility with Linux and Windows\
--   Implement version control and update checking\
--   Provide dependency checking and user feedback\
--   Enable rollback safety for failed installs\
--   Provide a simple CLI interface\
--   Maintain audit logs\
+-   Automate installation and configuration of eSim dependencies
+-   Ensure compatibility with Linux and Windows
+-   Implement version control and update checking
+-   Provide dependency checking and user feedback
+-   Enable rollback safety for failed installs
+-   Provide a simple CLI interface
+-   Maintain audit logs
 -   Support extensibility via manifests
 
 ------------------------------------------------------------------------
@@ -173,16 +173,16 @@ OS abstraction is handled via:
 
 All major functional paths were tested and verified:
 
--   CLI boot sanity\
--   Manifest parsing\
--   Dry-run install\
--   Real install\
--   Dependency failure detection\
--   Version detection\
--   Update checking (API integration)\
--   Configuration injection\
--   Rollback safety\
--   Structured logging\
+-   CLI boot sanity
+-   Manifest parsing
+-   Dry-run install
+-   Real install
+-   Dependency failure detection
+-   Version detection
+-   Update checking (API integration)
+-   Configuration injection
+-   Rollback safety
+-   Structured logging
 -   Toolchain validation
 
 ------------------------------------------------------------------------
@@ -191,9 +191,9 @@ All major functional paths were tested and verified:
 
 New tools can be added by:
 
-1.  Creating a YAML manifest\
-2.  Defining install/uninstall commands\
-3.  Defining version detection command\
+1.  Creating a YAML manifest
+2.  Defining install/uninstall commands
+3.  Defining version detection command
 4.  Defining dependencies
 
 No Python code changes required.
@@ -205,9 +205,9 @@ No Python code changes required.
 This project delivers a production-grade Automated Tool Manager for eSim
 that:
 
--   Fully satisfies all screening task requirements\
--   Implements additional safety and audit features\
--   Supports cross-platform execution\
+-   Fully satisfies all screening task requirements
+-   Implements additional safety and audit features
+-   Supports cross-platform execution
 -   Is extensible, maintainable, and failure-safe
 
 It transforms manual tool setup into a deterministic, automated, and
@@ -217,10 +217,10 @@ validated workflow.
 
 ## 10. Author
 
-Name: D. Tvk\
-Program: B.Tech Computer Science\
-Submission For: eSim Semester Long Internship -- Spring 2026\
-GitHub: https://github.com/D-Tvk\
+Name: D. Tvk
+Program: B.Tech Computer Science
+Submission For: eSim Semester Long Internship -- Spring 2026
+GitHub: https://github.com/D-Tvk
 Location: India
 
 ------------------------------------------------------------------------
