@@ -1,0 +1,17 @@
+name: verilator
+display_name: Verilator
+version: "latest"
+
+channels:
+  stable:
+    linux:
+      install: apt install -y verilator
+      uninstall: apt remove -y verilator
+      version_cmd: verilator --version
+    windows:
+      install: choco install verilator -y
+      uninstall: choco uninstall verilator -y
+      version_cmd: verilator --version
+
+dependencies:
+  - python3

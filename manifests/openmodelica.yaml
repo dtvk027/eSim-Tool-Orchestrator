@@ -1,0 +1,17 @@
+name: openmodelica
+display_name: OpenModelica
+version: "latest"
+
+channels:
+  stable:
+    linux:
+      install: apt install -y openmodelica
+      uninstall: apt remove -y openmodelica
+      version_cmd: omc --version
+    windows:
+      install: choco install openmodelica -y
+      uninstall: choco uninstall openmodelica -y
+      version_cmd: omc --version
+
+dependencies:
+  - python3

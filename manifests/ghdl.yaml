@@ -1,0 +1,17 @@
+name: ghdl
+display_name: GHDL
+version: "latest"
+
+channels:
+  stable:
+    linux:
+      install: apt install -y ghdl
+      uninstall: apt remove -y ghdl
+      version_cmd: ghdl --version
+    windows:
+      install: choco install ghdl -y
+      uninstall: choco uninstall ghdl -y
+      version_cmd: ghdl --version
+
+dependencies:
+  - python3

@@ -1,0 +1,21 @@
+name: esim
+display_name: eSim Toolchain
+version: "1.0"
+
+channels:
+  stable:
+    linux:
+      install: echo "eSim meta tool does not require installation"
+      uninstall: echo "eSim meta tool does not require uninstall"
+      version_cmd: echo "eSim Toolchain v1.0"
+    windows:
+      install: echo "eSim meta tool does not require installation"
+      uninstall: echo "eSim meta tool does not require uninstall"
+      version_cmd: echo "eSim Toolchain v1.0"
+
+dependencies:
+  - ngspice
+  - kicad
+  - ghdl
+  - verilator
+  - openmodelica

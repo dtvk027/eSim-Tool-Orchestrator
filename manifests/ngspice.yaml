@@ -1,0 +1,21 @@
+name: ngspice
+display_name: Ngspice
+version: "40"
+
+channels:
+  stable:
+    linux:
+      install: apt install -y ngspice=40
+      uninstall: apt remove -y ngspice
+      version_cmd: ngspice -v
+    windows:
+      install: choco install ngspice --version=40 -y
+      uninstall: choco uninstall ngspice -y
+      version_cmd: ngspice -v
+post_install:
+  env:
+    ESIM_TEST_VAR: "12345"
+    
+dependencies:
+  - python3
+  

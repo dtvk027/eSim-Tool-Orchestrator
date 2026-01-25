@@ -1,0 +1,17 @@
+name: kicad
+display_name: KiCad
+version: "latest"
+
+channels:
+  stable:
+    linux:
+      install: apt install -y kicad
+      uninstall: apt remove -y kicad
+      version_cmd: kicad --version
+    windows:
+      install: choco install kicad -y
+      uninstall: choco uninstall kicad -y
+      version_cmd: kicad --version
+
+dependencies:
+  - python3
