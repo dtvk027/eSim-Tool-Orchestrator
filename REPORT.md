@@ -217,7 +217,7 @@ validated workflow.
 
 ## 10. Author
 
-Name: D. Tvk
+Name: VAMSIKRISHNA TATINENI
 Program: B.Tech Computer Science
 Submission For: eSim Semester Long Internship -- Spring 2026
 GitHub: https://github.com/D-Tvk
